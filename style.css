@@ -1,31 +1,39 @@
+:root {
+  --brand-color: #212121(--brand-color);
+}
+
+:root {
+  --background-color: #2196f3;
+}
+
 .post-title {
-  font-size: 14px;
-  color: #212121;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 14;
   font-style: bold;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .post-lorem {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 14;
+  line-height: 24%;
   color: #757575;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
+  text-align: center;
 }
 
 .link {
   cursor: pointer;
   text-decoration-line: none;
+  color: var(--brand-color);
 }
-.phone {
-  text-decoration-line: none;
+.link:hover {
+  color: var(--background-color);
 }
 
-.what-do {
+.phone {
+  text-decoration-line: none;
+  color: var(--brand-color);
 }
 
 .section1 {
@@ -33,13 +41,11 @@
 }
 
 .button-order {
-  background-color: #2196f3;
+  background-color: var(--background-color);
   color: #ffffff;
   font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  line-height: 30px;
-  letter-spacing: 6px;
+  line-height: auto;
+  letter-spacing: 6%;
   text-align: center;
 }
 
@@ -48,78 +54,86 @@
   font-size: 44px;
   color: #ffffff;
   line-height: 60px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  letter-spacing: 6px;
+  letter-spacing: 6%;
   font-weight: black;
   text-transform: uppercase;
+  background-color: #2f303a;
 }
 
 .title2 {
   text-align: center;
-  font: size 36px;
+  font-size: 36;
   font-style: bold;
-  color: #212121;
+  color: var(--brand-color);
   text-align: top;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   font-weight: bold;
 }
 
 .personal-date {
-  color: #212121;
-  font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16;
   font-weight: medium;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   text-align: center;
 }
 
 .position {
   color: #757575;
-  font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16;
   font-weight: normal;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   text-align: center;
 }
 
 .social-button .button:hover {
-  background-color: #2196f3;
+  background-color: var(--background-color);
   cursor: pointer;
 }
 
 .button {
   text-align: center;
-  font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16;
   font-weight: medium;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   line-height: 26px;
-  color: #212121;
 }
 .name-services {
   text-align: left;
-  font-size: 18px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 18;
   font-weight: bold;
-  letter-spacing: 6px;
-  line-height: 36px;
-  color: #212121;
+  letter-spacing: 6%;
+  line-height: 36%;
 }
 
 .services {
   text-align: left;
-  font-size: 16px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16;
   font-weight: 400;
-  letter-spacing: 3px;
+  letter-spacing: 3%;
   color: #757575;
 }
 .list-style {
   list-style: none;
+}
+
+.adress .button:hover {
+  background-color: var(--background-color);
+}
+
+.body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: var(--brand-color);
+  width: 1170px;
+  height: 1360px;
+  background-color: white;
+  margin: auto;
+}
+
+.photo {
+  width: 370;
+  height: 294;
+}
+.logo {
+  text-decoration-line: none;
 }

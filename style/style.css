@@ -42,6 +42,9 @@ body {
   text-decoration-line: none;
   color: var(--brand-color);
 }
+.mail {
+  text-decoration-line: none;
+}
 
 .section1 {
   background-color: #2f303a;

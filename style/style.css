@@ -7,7 +7,7 @@ body {
   color: var(--brand-color);
   background-color: white;
   font-family: "Roboto", sans-serif;
-  list-style-type: none
+  list-style-type: none;
 }
 
 .post-title {
@@ -129,7 +129,7 @@ body {
  
 }
 .list-style .photo{
-  list-style: none;
+  list-style-type: none;
   display: inline-block;
   
 }

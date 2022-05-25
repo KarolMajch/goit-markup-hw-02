@@ -7,6 +7,7 @@ body {
   color: var(--brand-color);
   background-color: white;
   font-family: "Roboto", sans-serif;
+  list-style-type: none
 }
 
 .post-title {

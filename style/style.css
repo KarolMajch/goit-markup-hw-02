@@ -9,7 +9,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.header-logo{
+.header-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: 700;
@@ -68,6 +68,7 @@ body {
   line-height: 1.875;
   letter-spacing: 0.06em;
   text-align: center;
+  font-weight: bold;
 }
 
 .title1 {
@@ -88,7 +89,7 @@ body {
 
 .personal-date {
   font-size: 16px;
-  font-weight: normal;
+  font-weight: 500;
   letter-spacing: 0.03em;
   text-align: center;
 }
@@ -203,7 +204,6 @@ body {
 
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
-  text-decoration-line: none;
 }
 .footer-phone {
   color: rgba(255, 255, 255, 0.6);

@@ -157,6 +157,11 @@ body {
 .list-style {
   list-style-type: none;
 }
+.fotter{
+  background-color: #2F303A;
+  color: #ffffff;
+  font-style: normal;
+}
 
 .footer-logo {
   font-family:Raleway;
@@ -165,8 +170,26 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: #ffffff;
+  line-height: 1.19em;
 }
 
 .footer-logo >span {
   color:#2196F3;
+}
+.footer-adres{
+font-style: normal;
+font-size: 14px;
+line-height: 2em;
+letter-spacing: 0.03em;
+font-weight: 400;
+color: #ffffff;
+
+
+}
+
+.footer-mail{
+  color :rgba(255,255,255,0.6.);
+}
+.footer-phone{
+  color :rgba(255,255,255,0.6.);
 }

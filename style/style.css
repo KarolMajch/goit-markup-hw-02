@@ -157,10 +157,11 @@ body {
 .list-style {
   list-style-type: none;
 }
-.fotter{
-  background-color: #2F303A;
+.footer {
+  background-color:#2F303A;
   color: #ffffff;
   font-style: normal;
+
 }
 
 .footer-logo {

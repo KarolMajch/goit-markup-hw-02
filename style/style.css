@@ -160,6 +160,7 @@ body {
   background-color: #2f303a;
   color: #ffffff;
   font-style: normal;
+  padding: 60px 0;
 }
 
 .footer-logo {
@@ -176,6 +177,7 @@ body {
 .footer-logo > span {
   color: #2196f3;
 }
+
 .footer-adres {
   font-style: normal;
   font-size: 14px;

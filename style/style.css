@@ -15,12 +15,12 @@ body {
   font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--background-color);
   line-height: 1.19em;
   text-decoration-line: none
 }
-.header-logo > span {
-  color: var(--brand-color)
+.header-logo >span {
+  color:black;
 }
 
 .post-title {

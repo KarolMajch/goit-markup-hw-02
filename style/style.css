@@ -170,6 +170,7 @@ body {
   letter-spacing: 0.03em;
   color: #ffffff;
   line-height: 1.19em;
+  text-decoration-line: none;
 }
 
 .footer-logo > span {
@@ -185,10 +186,10 @@ body {
 }
 
 .footer-mail {
-  color: rgba(255, 255, 255, 06.);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
 .footer-phone {
-  color: rgba(255, 255, 255, 06.);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }

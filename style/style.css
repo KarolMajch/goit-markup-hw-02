@@ -105,8 +105,9 @@ body {
   letter-spacing: 0.03em;
   text-align: center;
 }
-.social-button{
-  list-style-type: none;
+
+.social-button {
+  list-style: none;
 }
 
 .social-button button {
@@ -118,6 +119,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--brand-color);
+  list-style: none;
 }
 
 .social-button .button:hover {
@@ -213,7 +215,10 @@ body {
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail:hover{
+.footer-mail :hover{
+  color: var(--background-color);
+}
+.footer-mail :focus {
   color: var(--background-color);
 }
 
@@ -221,6 +226,9 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
-.footer-phone:hover {
+.footer-phone :hover {
+  color: var(--background-color);
+}
+.footer-phone :focus{
   color: var(--background-color);
 }

@@ -215,10 +215,7 @@ body {
 .footer-mail {
   color: rgba(255, 255, 255, 0.6);
 }
-.footer-mail :hover{
-  color: var(--background-color);
-}
-.footer-mail :focus {
+.footer-mail:hover {
   color: var(--background-color);
 }
 
@@ -226,9 +223,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
   text-decoration-line: none;
 }
-.footer-phone :hover {
+.footer-phone:hover {
   color: var(--background-color);
 }
-.footer-phone :focus{
-  color: var(--background-color);
-}
+

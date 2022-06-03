@@ -16,7 +16,7 @@ body {
   font-size: 26px;
   letter-spacing: 0.03em;
   color: var(--background-color);
-  line-height: 1.19em;
+  line-height: 1.19;
   text-decoration-line: none
 }
 .header-logo >span {
@@ -52,14 +52,22 @@ body {
   color: var(--background-color);
 }
 
-.phone {
+.header-phone {
   text-decoration-line: none;
-  color: var(--brand-color);
+  color: #757575
 }
 
-.phone:hover {
+.header-phone:hover,
+.header-mail:hover {
   color: var(--background-color);
 }
+
+.header-mail{
+  cursor: pointer;
+  text-decoration-line: none;
+  color: #757575
+}
+
 
 .section1 {
   background-color: #2f303a;
@@ -73,12 +81,14 @@ body {
   letter-spacing: 0.06em;
   text-align: center;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .title1 {
   color: white;
   text-align: center;
   text-transform: uppercase;
+  font-size: 44px;
 }
 
 .title2 {
@@ -125,6 +135,7 @@ body {
 .social-button .button:hover {
   background-color: var(--background-color);
   cursor: pointer;
+  color: #ffffff;
 }
 
 .button {
